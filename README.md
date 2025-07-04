@@ -1,5 +1,5 @@
 # 🖥️ Code-Orbit
-  ## A cloud-based code compiler and execution platform
+> A cloud-based code compiler and execution platform
 
 - #### A Full-stack web app that compiles and runs Python and JavaScript code, deployed on AWS EC2.
 
