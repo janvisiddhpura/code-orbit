@@ -106,6 +106,7 @@ cd code-orbit
     ```bash
   
     git clone https://github.com/janvisiddhpura/code-orbit.git
+    cd code-orbit
     cd orbit-backend
     npm install
     cd ../orbit-frontend
@@ -160,7 +161,7 @@ Open two terminal sessions or use a terminal multiplexer:
 
   ```bash
   
-  cd orbiit-frontend
+  cd orbit-frontend
   npm start
   
   ```
