@@ -56,7 +56,7 @@ cd code-orbit
 
 7. Sign-out from current account and sign-in with saved credentials of created user.
 
-> [!NOTE]
+> [!IMPORTANT]
 > EC2 instance configuration going forward should be carried out using the user account that has been granted Administrator access.
 
 #### 2️⃣ Launch an EC2 Ubuntu Server Instance
@@ -141,25 +141,25 @@ cd code-orbit
 
 5. Start Backend and Frontend Servers
 
-Open two terminal sessions or use a terminal multiplexer:
+- Open two terminal sessions or use a terminal multiplexer:
 
-- Backend Terminal:
+  - Backend Terminal:
 
-  ```bash
-  
-  cd orbit-backend
-  node server.js
-  
-  ```
+    ```bash
+    
+    cd orbit-backend
+    node server.js
+    
+    ```
 
-- Frontend Terminal:
+  - Frontend Terminal:
 
-  ```bash
-  
-  cd orbit-frontend
-  npm start
-  
-  ```
+    ```bash
+    
+    cd orbit-frontend
+    npm start
+    
+    ```
 
 🧪 Testing the Application
 
