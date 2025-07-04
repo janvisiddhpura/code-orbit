@@ -54,6 +54,11 @@ cd code-orbit
 
 6. Create a user and save the sign-in URL, username, and password
 
+7. Sign-out from current account and sign-in with saved credentials of created user.
+
+> [!NOTE]
+> EC2 instance configuration going forward should be carried out using the user account that has been granted Administrator access.
+
 #### 2️⃣ Launch an EC2 Ubuntu Server Instance
 
 1. Go to EC2 Dashboard → Launch Instance
@@ -134,17 +139,7 @@ cd code-orbit
   
   ```
 
-5. Modify Backend to Use Python3
-
-- In server.js, replace python with python3 for executing Python code.
-
-6. Update Frontend API URL and Request Body
-
-- In compiler.js, replace localhost with your EC2 public IP in API fetch calls.
-
-- Ensure POST request body includes code, language, and filename.
-
-7. Start Backend and Frontend Servers
+5. Start Backend and Frontend Servers
 
 Open two terminal sessions or use a terminal multiplexer:
 
