@@ -3,7 +3,7 @@
 
 - #### A Full-stack web app that compiles and runs Python and JavaScript code, deployed on AWS EC2.
 
-- #### This guide walks you through AWS IAM user setup, EC2 instance launch, environment configuration, and running the frontend and backend smoothly.
+- #### This guide walks you through setting up AWS IAM users, launching EC2 instances, configuring the environment, and running the frontend and backend smoothly.
 
 ### 📖 Usage Overview
 
